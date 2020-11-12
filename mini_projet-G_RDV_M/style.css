@@ -1,0 +1,145 @@
+
+@font-face{
+    font-family: 'polic';
+ src: url('font/Hello Valentina.ttf') format('TrueType');
+}
+@font-face{
+    font-family: 'text';
+ src: url('font/ecriture.otf') format('OpenType');
+}
+
+body{background-color: rgb(8, 114, 114);background-attachment: fixed;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+color:black;
+}
+
+#logo{ 
+    text-align:left;
+    width: 130px;
+height: 35px;}
+
+#men{
+    background-color: rgba(134, 250, 211,0.2);
+color: black;}
+.navbar-default .navbar-nav li a{
+    color:black;
+}
+.navbar-default .navbar-nav li a:hover{
+    background-color: rgb(7, 190, 175);
+}
+.navbar-default .navbar-nav li :active{
+	background-color: rgb(7, 190, 175);
+	text-decoration: underline;
+}
+#prendre{
+	font-size: 25px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 50px;
+    border-radius: 3px;
+	transition: all 1s;
+	color:white;
+	}
+#prendre:hover{
+	color:rgb(23, 130, 138);
+    background-color:white;
+	text-decoration: none;
+}
+#insc{
+	font-size: 25px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 3px;
+	transition: all 1s;
+	color:rgb(23, 130, 138);
+	background-color: white;
+}
+#insc:hover{
+	background-color:rgb(23, 130, 138);
+    color:white;
+	text-decoration: none;
+}
+#about{ text-align: center;
+    background-image: url("../img/consul.jpg");
+    background-attachment: fixed;
+    height:500px;
+	padding-top: 100px;
+	font-family: cursive;
+	color: black;
+}
+#rej{color:rgb(3, 42, 114);
+text-decoration: underline;}
+
+#footer-page{
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:white;
+  color:black;
+  text-align: center;
+	}
+#etoile{color: crimson;}
+#titre{font-family: polic;
+font-size: 40px;
+}	
+#btn{
+	font-size: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 22px;
+    padding: 5px 60px;
+    border-radius: 15px;
+	transition: all 1s;
+	color: black;
+}
+#btn:hover{
+	background-color: white;
+    color:rgb(3, 53, 56);
+	text-decoration: none;
+}
+#menu{background-color: white;
+}
+#personne{width: 90px;
+height: 70px;}
+#compte{
+	background-color: white;
+	color: black;
+}
+.nav li a{
+	color: black;
+}
+.alert{
+	text-align: center;
+	border-radius: 4px;
+    border: 2px solid black;
+
+}
+#vert :hover{background-color:rgb(7, 151, 7) ;}
+#orange :hover{background-color: rgba(235, 154, 5, 0.986);}
+#rouge :hover{background-color: rgb(201, 7, 7);}	
+.cadrevert{ border: 2px double rgb(7, 151, 7);}
+.cadreorange{border: 2px double rgba(235, 154, 5, 0.986);}
+.cadrerouge{border: 2px double rgb(201, 7, 7) ;}
+#jour{color: white;
+font-size: larger;}
+#confirmer{font-size: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 6px;
+	transition: all 1s;
+	color:black;}
+#confirmer:hover{
+		color: white;
+		background-color:rgb(23, 130, 138);
+		text-decoration: none;
+	}
+.table{ border: 1px solid black;}
+#ecriture{font-family: text;}
+#dutext{font-size: 16px;}

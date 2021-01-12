@@ -95,7 +95,7 @@ def efface_P2():
 
 if __name__ == '__main__':
 	app = Tk() 
-	app.title('APP Chiffrement Déchiffrement RSA <AIT EL DJOUDI Karim>')
+	app.title('APP Chiffrement Déchiffrement RSA <KEBBI Chahinez>')
 	app.geometry('940x780')
 	rows = 0
 	while rows < 50:

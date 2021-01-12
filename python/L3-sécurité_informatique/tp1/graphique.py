@@ -237,7 +237,7 @@ def Ouvrir_img(event):
         messagebox.showinfo('Nickel',"Maintenant il vous reste qu'a regarder dans le fichier et vous trouvez l'image que vous avez chiffrer merci a bientôt")   
 if __name__ == '__main__':
     main = Tk()
-    main.title('APP Chiffrement Par Bloc <AIT EL DJOUDI Karim>')
+    main.title('APP Chiffrement Par Bloc <KEBBI Chahinez>')
     main.geometry('840x680')
     myLabel = Label(main) 
     rows = 0
